@@ -1,0 +1,10 @@
+<h2>Videos List</h2>
+<ul class="videos">
+  <li *ngFor="let video of videos" 
+  routerLink="/detail/{{video.id}}">
+    <span class="badge">{{video.id}}</span> {{video.name}}
+  </li>
+</ul>
+<!-- Property Binding
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
+-->

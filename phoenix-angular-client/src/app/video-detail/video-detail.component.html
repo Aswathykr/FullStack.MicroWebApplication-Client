@@ -1,10 +1,12 @@
 <div *ngIf="video">
-  <h2>{{video.name | uppercase}} Details</h2>
-<div ><span>id: </span>{{video.id}}</div>
+  <h2>{{video.title}}</h2>
+<div >{{video.description}}</div>
+<br>
 <div>
-  <label>name:
-    <input [(ngModel)]="video.name" placeholder="name"/>
-  </label>
+  <video width="600" height="300" Autoplay=autoplay controls>
+    <source src={{video.path}}  type={{video.format}}>
+  </video>
+  
 </div>
 </div>
 <button (click)="goBack()">go back</button>

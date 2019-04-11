@@ -1,8 +1,6 @@
 <div *ngIf="commentService.comments.length">
-
   <h2>Comments</h2>
   <button class="clear"
           (click)="commentService.clear()">clear</button>
   <div *ngFor='let comment of commentService.comments'> {{comment}} </div>
-
 </div>

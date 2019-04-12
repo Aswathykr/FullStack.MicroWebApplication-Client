@@ -4,4 +4,5 @@ export class Video {
   format: string;
   path: string;
   description: string;
+  thumbnail: string;
 }

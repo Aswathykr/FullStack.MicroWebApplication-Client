@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+/*.header {*/
+  /*padding: 14px;*/
+  /*text-align: center;*/
+  /*font-family: "American Typewriter";*/
+  /*background: #EEEEEE;*/
+  /*color: black;*/
+  /*font-size: 7px;*/
+  /*width: 150%;*/
+/*}*/
+body {
+  background-image: url("./assets/imagecreative.jpg");
+  background-size: 1280px;
+  background-repeat: no-repeat;
+  /*width: 500px;*/
+  /*!*height: 4000px;*!*/
+
+}
+

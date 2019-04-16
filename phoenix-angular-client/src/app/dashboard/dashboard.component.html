@@ -1,9 +1,26 @@
-<h3>Top Videos</h3>
+<!--<hr class="line" />-->
 <div class="grid grid-pad">
-  <a *ngFor="let video of videos" class="col-1-4"
+
+  <h3>Top Videos</h3>
+
+  <a *ngFor = "let video of videos" class="col-1-4"
+
+     style="background-image:{{video.thumbnail}}"
+
   routerLink="/detail/{{video.id}}"><br>
+
     <div class="module video">
-      <h4>{{video.title}}</h4>
+      <h4 class="title">{{video.title}}</h4>
     </div>
   </a>
 </div>
+
+
+<!--
+//folder/path/to/video.mp4
+//different/path/to/thumbnail.jpeg
+
+DB
+Video:
+path | thumbnail | description | title
+-->

@@ -1,11 +1,22 @@
 /* DashboardComponent's private CSS styles */
+
+.line {
+  width:103%;
+  height:4px;
+  background-color: white;
+  border:none;
+  margin-top: 10px;
+  left: 0;
+}
+
 [class*='col-'] {
     float: left;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    /*padding-right: 10px;*/
+    /*padding-bottom: 20px;*/
   }
+
   [class*='col-']:last-of-type {
-    padding-right: 0;
+    /*padding-right: 20px;*/
   }
   a {
     text-decoration: none;
@@ -15,54 +26,72 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+
+@keyframes moveLeftToRight1 {
+  0%   { left: -100px; }
+  100% { left: 100%; }
+}
+
   h3 {
     text-align: center;
-    margin-bottom: 0;
+    font-size: x-large;
+    color: #EEEEEE;
+    font-family: "American Typewriter";
+    animation: moveLeftToRight 10s linear infinite;
   }
-  h4 {
-    position: relative;
-  }
-  .grid {
-    margin: 0;
-  }
+
+
   .col-1-4 {
-    width: 21%;
-    background-image:url("../../assets/video-thumbnail.jpg") ;
+    width: 230px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: grid;
+    grid-gap: 100px;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    background-image:url("../../assets/27.jpeg") ;
     background-size: cover;
     background-position: center;
+    color: #607D8B;
+    animation:  moveLeftToRight 15s linear;
+    position: relative;
+
    }
+
+  .col-1-4:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    /*animation-fill-mode: forwards;*/
+  }
   .module {
-    margin-top: 200px;
+    margin-top: 60px;
     text-align: center;
     color: #eee;
-    max-height: 250px;
-    min-width: 50px;
+    height: 40px;
+    width: 225px;
     background-color: #607d8b;
-   border-radius: 2px;
-    height: 30px;
-    
+    border-radius: 2px;
+    font-family: "American Typewriter";
   }
+.title {
+
+  text-align: center;
+  margin-top: 0px;
+
+}
+
   .module:hover {
     background-color: #eee;
     cursor: pointer;
     color: #607d8b;
+    /*transform: scale(1.2);*/
   }
-  .grid-pad {
-    padding: 10px 0;
+
+
+  @keyframes moveLeftToRight {
+  0%   { left: -100px; }
+  100% { left: 100%; }
   }
-  .grid-pad > [class*='col-']:last-of-type {
-    padding-right: 20px;
-  }
-  @media (max-width: 600px) {
-    .module {
-      font-size: 10px;
-      max-height: 175px; }
-  }
-  @media (max-width: 1024px) {
-    .grid {
-      margin: 0;
-    }
-    .module {
-      min-width: 60px;
-    }
-  }
+
+

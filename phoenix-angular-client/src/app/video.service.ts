@@ -15,7 +15,7 @@ export class VideoService {
   }
   /** GET heroes from the server */
   getVideos (): Observable<Video[]> {
-     return this.http.get<Video[]>('http://localhost:8080//video/all').pipe(
+     return this.http.get<Video[]>('http://localhost:8080//videos/all').pipe(
       catchError(this.handleError<Video[]>('getVideos', []))
     );
   }
@@ -39,7 +39,7 @@ export class VideoService {
   }
 
   getVideo(id: number): Observable<Video> {
-    const url = `http://localhost:8080//video/${id}`;
+    const url = `http://localhost:8080//videos/${id}`;
     return this.http.get<Video>(url).pipe(
       tap(_ => this.log(`fetched video id=${id}`)),
       catchError(this.handleError<Video>(`getVideo id=${id}`))

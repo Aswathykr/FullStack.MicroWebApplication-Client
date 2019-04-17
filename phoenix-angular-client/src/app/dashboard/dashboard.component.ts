@@ -19,7 +19,7 @@ export class DashboardComponent implements OnInit {
  
   getVideos(): void {
     this.videoService.getVideos()
-      .subscribe(videos => this.videos = videos.slice(1, 5));
+      .subscribe(videos => this.videos = videos.slice(0, 5));
   }
 
 }

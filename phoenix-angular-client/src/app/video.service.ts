@@ -15,7 +15,7 @@ export class VideoService {
   }
   /** GET heroes from the server */
   getVideos (): Observable<Video[]> {
-     return this.http.get<Video[]>('http://localhost:8080//videos/all').pipe(
+     return this.http.get<Video[]>('http://localhost:8080/videos/all').pipe(
       catchError(this.handleError<Video[]>('getVideos', []))
     );
   }

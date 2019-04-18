@@ -8,6 +8,8 @@
   /*font-size: 7px;*/
   /*width: 150%;*/
 /*}*/
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 body {
   background-image: url("./assets/imagecreative.jpg");
   background-size: 1280px;

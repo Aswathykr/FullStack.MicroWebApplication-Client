@@ -26,9 +26,8 @@ export class VideoDetailComponent implements OnInit {
   getVideo(): void {
     const id = +this.route.snapshot.paramMap.get('id');
     console.log(id)
-    console.log("***********")
     this.videoService.getVideo(id)
-      .subscribe(video => this.video = video);
+      .subscribe(video => {this.video = video; console.log(video.path)});
   }
   goBack(): void {
     this.location.back();

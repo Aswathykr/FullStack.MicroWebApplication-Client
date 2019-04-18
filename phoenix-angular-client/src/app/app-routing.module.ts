@@ -3,12 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { VideosComponent }      from './videos/videos.component';
 import { VideoDetailComponent }  from './video-detail/video-detail.component';
 import { DashboardComponent }  from './dashboard/dashboard.component';
+import { FileUploadComponent } from './file-upload/file-upload.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
+  { path: 'videos', component: VideosComponent },
   { path: 'detail/:id', component: VideoDetailComponent },
-  { path: 'videos', component: VideosComponent }
+  { path: 'upload', component: FileUploadComponent },
 ];
 
 @NgModule({

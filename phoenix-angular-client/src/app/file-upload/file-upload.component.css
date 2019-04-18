@@ -1,0 +1,48 @@
+.outer {
+    text-align: center;
+}
+
+.inner{
+    margin-top: 10px;
+    position: absolute;
+    display:grid;
+    grid-template-columns: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 30px 30px 30px; 
+    border:1px solid rgba(235, 240, 243, 0.836);
+    text-align: center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+
+}
+.grid-label{
+    text-align: right;
+}
+.grid-input{
+    text-align: right;
+}
+.top-spacing{
+    margin-top: 20px;
+}
+label {
+    margin-left: auto;
+    padding: 1em;
+    color: white;
+    padding-top: 10px;
+    text-align: left;
+   font-family: "American Typewriter";
+}
+input {
+    color:black;
+    font-family: "American Typewriter";
+    align-self: center;
+  }
+.uploadSelect{
+    text-align: center;
+}

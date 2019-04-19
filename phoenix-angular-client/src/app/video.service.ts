@@ -1,17 +1,26 @@
 
 import { Injectable } from '@angular/core';
 import { Video } from './video';
+import {Comment} from "./comment";
 import { Observable, of } from 'rxjs';
-import { CommentService } from './comment.service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { catchError, map, tap } from 'rxjs/operators';
 
+const httpOptions = {
+  headers: new HttpHeaders({
+    'Content-Type':  'application/json',
+    'Authorization': 'my-auth-token'
+  })
+};
 @Injectable({
   providedIn: 'root'
 })
+
+
+
 export class VideoService {
-  constructor(private http: HttpClient,
-              public messageService: CommentService) { 
+  private urlAddress = 'http://localhost:8080/';
+  constructor(private http: HttpClient) {
   }
   /** GET heroes from the server */
   getVideos (): Observable<Video[]> {
@@ -19,31 +28,37 @@ export class VideoService {
       catchError(this.handleError<Video[]>('getVideos', []))
     );
   }
-  
   /** Log a VideoService message with the MessageService */
-  private log(comment: string) {
-    this.messageService.add(`VideoService: ${comment}`);
-  }
   private handleError<T> (operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
-  
-      // TODO: send the error to remote logging infrastructure
       console.error(error); // log to console instead
-  
-      // TODO: better job of transforming error for user consumption
-      this.log(`${operation} failed: ${error.message}`);
-  
+      console.log(`${operation} failed: ${error.message}`);
       // Let the app keep running by returning an empty result.
-      return of(result as T);
-    };
+      return of(result as T);};
   }
 
   getVideo(id: number): Observable<Video> {
     const url = `http://localhost:8080//videos/${id}`;
     return this.http.get<Video>(url).pipe(
-      tap(_ => this.log(`fetched video id=${id}`)),
+      tap(_ => console.log(`fetched video id=${id}`)),
       catchError(this.handleError<Video>(`getVideo id=${id}`))
     );
+  }
+
+  getComments(id: number): Observable<Comment[]> {
+    const url = `http://localhost:8080/videos/comments/${id}`;
+    console.log("url"+url);
+    return this.http.get<Comment[]>(url).pipe(
+      catchError(this.handleError<Comment[]>(`getComments=${id}`)));
+
+  }
+
+  addComment (id:number,comment:Comment): Observable<Comment> {
+    const url = `http://localhost:8080/videos/comment/1/${id}`;
+    console.log("-----"+url);
+    return this.http.post<Comment>(url,comment,).pipe(
+        catchError(this.handleError('addComment', comment))
+      );
   }
 }
 

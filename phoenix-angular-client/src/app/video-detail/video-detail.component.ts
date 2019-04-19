@@ -4,6 +4,7 @@ import { Video } from '../video';
 import { VideoService } from '../video.service'
 import { Location } from '@angular/common';
 import {ActivatedRoute} from '@angular/router'
+import {Comment} from "../comment";
 
 @Component({
   selector: 'app-video-detail',
@@ -12,7 +13,12 @@ import {ActivatedRoute} from '@angular/router'
 })
 export class VideoDetailComponent implements OnInit {
 
-  @Input() video: Video;
+  @Input()
+  video: Video;
+
+  @Input()
+  videoId : number;
+ private comment;
   constructor(
     private route: ActivatedRoute,
     private videoService: VideoService,
@@ -21,6 +27,8 @@ export class VideoDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.getVideo();
+    this.getComment();
+
   }
   
   getVideo(): void {
@@ -32,5 +40,14 @@ export class VideoDetailComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
+
+  getComment(): void {
+    const id = +this.route.snapshot.paramMap.get('id');
+    this.videoService.getComments(id)
+      .subscribe(comment => {
+        this.comment = comment;
+      });
+  }
+
 }
 

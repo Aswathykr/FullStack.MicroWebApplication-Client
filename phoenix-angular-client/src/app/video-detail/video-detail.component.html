@@ -1,12 +1,15 @@
-<div *ngIf="video">
+<div class="videoDisplay" *ngIf="video">
   <h2>{{video.title}}</h2>
-<div >{{video.description}}</div>
-<br>
-<div>
-  <video width="600" height="300" Autoplay=autoplay controls>
-    <source src={{video.path}}  type="video/mp4">
+
+<span class="description">{{video.description}}</span>
+  <video width="600" height="400" Autoplay=autoplay controls >
+    <source src={{video.path}}  type='video/{{video.format}}'>
   </video>
-  
 </div>
+<div class="commentsDisplay" >
+  <app-comments  [comments] = "comments"></app-comments>>
 </div>
+
+<!--<li *ngFor="let comment of comments"></li>-->
+<div>Insert Comments</div>
 <button (click)="goBack()">go back</button>

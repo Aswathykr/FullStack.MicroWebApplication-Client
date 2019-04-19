@@ -9,7 +9,7 @@
   /*width: 150%;*/
 /*}*/
 
-
+@import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
   background-image: url("./assets/imagecreative.jpg");
@@ -18,5 +18,8 @@ body {
   /*width: 500px;*/
   /*height: 4000px;*/
 
+}
+body.busy-cursor {
+  cursor: progress;
 }
 

@@ -1,10 +1,12 @@
-<div class="videoDisplay" *ngIf="video">
   <h2>{{video.title}}</h2>
 
 <span class="description">{{video.description}}</span>
+<div class="videoDisplay" *ngIf="video">
+<div >
   <video width="600" height="400" Autoplay=autoplay controls >
     <source src={{video.path}}  type='video/{{video.format}}'>
   </video>
+</div>
 </div>
 <div class="commentsDisplay" >
   <app-comments  [comments] = "comments"></app-comments>>

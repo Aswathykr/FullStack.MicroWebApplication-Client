@@ -1,10 +1,12 @@
 /* VideoDetailComponent's private CSS styles */
 
-h2{
-  font-family: "Apple Color Emoji";
-  color: #039be5;
-  text-align: left;
-}
+/*h2{*/
+  /*font-family: "Apple Color Emoji";*/
+  /*color: #039be5;*/
+  /*text-align: left;*/
+  /*margin-top: 200px;*/
+
+/*}*/
 .videoDisplay{
   margin-top: 100px;
   margin-left: 300px;

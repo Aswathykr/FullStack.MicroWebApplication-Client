@@ -9,7 +9,11 @@
         <label>Description</label></div>
       <div class="grid-input">
         <input placeholder="Enter the description"[(ngModel)]="description"/></div>
-    </div>        
-  <input class = "uploadSelect" (change)="upload()" type="file" #fileInput accept="video/mp4"/>
+    </div>
+    <label class="custom">
+  <input class = "uploadSelect"  type="file" #fileInput accept="video/mp4"/>
+      </label>
+    <button class="submit" (click)="upload()" >Upload</button>
+
 </div>
 </div>

@@ -22,6 +22,7 @@ export class FileUploadComponent implements OnInit {
   public upload(){
     console.log("upload ******")
     document.body.classList.add('busy-cursor');
+
     const files = this.fileInputVariable.nativeElement.files;
     this.uploadService.upload(files[0], this.title,this.description)
     .subscribe(something => {
@@ -31,5 +32,6 @@ export class FileUploadComponent implements OnInit {
       document.body.classList.remove('busy-cursor');
       alert("An error occured while trying to uploaded, please try again!!");
     });
+    alert("uploading");
   }
 }

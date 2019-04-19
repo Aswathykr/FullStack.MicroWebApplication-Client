@@ -3,14 +3,14 @@
 }
 
 .inner{
-    margin-top: 10px;
+    margin-top: 5px;
     position: absolute;
     display:grid;
     grid-template-columns: auto;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    padding: 40px 30px 30px 30px; 
+    padding: 30px 30px 30px 30px;
     border:1px solid rgba(235, 240, 243, 0.836);
     text-align: center;
 }
@@ -18,7 +18,8 @@
 .grid{
     display:grid;
     grid-template-columns: auto auto;
-    padding: 10px;
+    padding: 5px;
+    position: relative;
 
 }
 .grid-label{
@@ -28,7 +29,7 @@
     text-align: right;
 }
 .top-spacing{
-    margin-top: 20px;
+    margin-top: 5px;
 }
 label {
     margin-left: auto;
@@ -36,13 +37,40 @@ label {
     color: white;
     padding-top: 10px;
     text-align: left;
-   font-family: "American Typewriter";
+   font-family: sans-serif;
 }
 input {
     color:black;
-    font-family: "American Typewriter";
+    font-family: sans-serif;
     align-self: center;
+  position: relative;
   }
+
 .uploadSelect{
     text-align: center;
+    border: #039be5;
+    color: #EEEEEE;
+}
+.submit{
+  border: 2px solid #ccc;
+  background-color: #607D8B;
+  size: 30px;
+  height: 40px;
+  width: 130px;
+  margin-left: 90px;
+}
+.custom{
+  /*border: 2px solid #ccc;*/
+  /*background-color: #607D8B;*/
+  /*padding-right: 6px;*/
+  height: 6px;
+  width: 130px;
+  cursor: pointer;
+  text-align: center;
+
+
+  margin-left: 90px;
+  display: inline-block;
+  margin-bottom: 20px;
+
 }

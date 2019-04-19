@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3ad6022-b214-4bad-9195-2d97dc738ce6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/comment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/comment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/comment.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/video.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/video.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/app/videos/videos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/app/videos/videos.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoenix-angular-client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/phoenix-angular-client/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,52 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/comment.service.ts">
+        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="22" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="24" />
-              <folding>
-                <element signature="e#1#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/videos/videos.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -83,32 +36,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="19" selection-start-line="18" selection-start-column="16" selection-end-line="19" />
+            <state relative-caret-position="30">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding>
-                <marker date="1555680637993" expanded="true" signature="105:126" ph="..." />
+                <marker date="1555695260525" expanded="true" signature="109:130" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.ts">
+        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/comment.ts">
+        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,17 +107,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -154,6 +145,9 @@
       <find>fixed</find>
       <find>position: fixed;</find>
       <find>form</find>
+      <find>thum</find>
+      <find>ng</find>
+      <find>ng2</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard</dir>
@@ -176,16 +170,20 @@
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.html" />
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.css" />
-        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.css" />
-        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/phoenix-angular-client/src/index.html" />
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/styles.css" />
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.ts" />
-        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/comment.ts" />
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/video.service.ts" />
+        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.ts" />
         <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.html" />
+        <option value="$PROJECT_DIR$/phoenix-angular-client/src/index.html" />
+        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.css" />
+        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.ts" />
+        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.html" />
+        <option value="$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.css" />
       </list>
     </option>
   </component>
@@ -239,7 +237,7 @@
               <item name="phoenix-angular-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="video-detail" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FullStack.MicroWebApplication-Client" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +245,7 @@
               <item name="phoenix-angular-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="file-upload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +297,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73064000" />
+    <option name="totallyTimeSpent" value="80698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="715" extended-state="6" />
@@ -409,47 +407,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,15 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -527,35 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#571#737#0" />
-            <element signature="e#753#789#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -569,17 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="e#1#58#0" expanded="true" />
-            <element signature="n#!!block;n#goBack#0;n#VideoDetailComponent#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/videos/videos.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -587,37 +504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" selection-start-line="18" selection-start-column="16" selection-end-line="19" />
-          <folding>
-            <marker date="1555680637993" expanded="true" signature="105:126" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,24 +521,41 @@
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/comment.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="24" />
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="24" />
           <folding>
             <element signature="e#1#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        <state relative-caret-position="138">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
@@ -657,8 +564,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/comments/comments.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="e#1#58#0" expanded="true" />
+            <element signature="n#!!block;n#goBack#0;n#VideoDetailComponent#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/video-detail/video-detail.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1555695260525" expanded="true" signature="109:130" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/dashboard/dashboard.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoenix-angular-client/src/app/file-upload/file-upload.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -8,12 +8,15 @@
   /*font-size: 7px;*/
   /*width: 150%;*/
 /*}*/
+
+
+
 body {
   background-image: url("./assets/imagecreative.jpg");
   background-size: 1280px;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   /*width: 500px;*/
-  /*!*height: 4000px;*!*/
+  /*height: 4000px;*/
 
 }
 

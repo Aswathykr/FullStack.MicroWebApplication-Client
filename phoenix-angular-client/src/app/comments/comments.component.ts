@@ -36,9 +36,9 @@ export class CommentsComponent implements OnInit {
   addComment(id,text: string): void{
     this.entry = undefined;
     const newComment: Comment  = {comment : text}  as Comment;
+
     // newComment.comment= text;
     console.log("this id thw id" +id+newComment)
-      //
     this.videoService.addComment(id, newComment)
       .subscribe(comment => this.comments.push(comment));
 
@@ -46,5 +46,6 @@ export class CommentsComponent implements OnInit {
 
   onClick(){
     this.addComment(this.id,this.newComment);
+    this.newComment = "";
   }
 }

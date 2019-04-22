@@ -11,8 +11,10 @@
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 30px 30px 30px 30px;
-    border:1px solid rgba(235, 240, 243, 0.836);
+    border:2px solid rgba(235, 240, 243, 0.836);
     text-align: center;
+    border-radius: 25px;
+    background-color: #607D8B;
 }
 
 .grid{
@@ -24,9 +26,16 @@
 }
 .grid-label{
     text-align: right;
+    border-radius: 10px;
 }
+
 .grid-input{
     text-align: right;
+
+
+}
+.grid-input:hover{
+
 }
 .top-spacing{
     margin-top: 5px;
@@ -50,6 +59,7 @@ input {
     text-align: center;
     border: #039be5;
     color: #EEEEEE;
+
 }
 .submit{
   border: 2px solid #ccc;
@@ -58,6 +68,7 @@ input {
   height: 40px;
   width: 130px;
   margin-left: 90px;
+  border-radius: 25px;
 }
 .custom{
   /*border: 2px solid #ccc;*/
@@ -67,10 +78,9 @@ input {
   width: 130px;
   cursor: pointer;
   text-align: center;
-
-
   margin-left: 90px;
   display: inline-block;
   margin-bottom: 20px;
+  margin-top: 10px;
 
 }

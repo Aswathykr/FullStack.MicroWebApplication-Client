@@ -13,7 +13,7 @@
 
 body {
   background-image: url("./assets/imagecreative.jpg");
-  background-size: 1280px;
+  background-size: cover;
   background-repeat: repeat-y;
   /*width: 500px;*/
   /*height: 4000px;*/

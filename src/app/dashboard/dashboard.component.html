@@ -5,10 +5,13 @@
 
   <a *ngFor = "let video of videos" class="col-1-4"
 
-     style="background-image:{{video.thumbnail}}"
 
-  routerLink="/detail/{{video.id}}"><br>
-
+  routerLink="/detail/{{video.id}}">
+  <div>
+  <video width="225" height="175">
+    <source src={{video.path}}  type='video/{{video.format}}'>
+  </video>
+</div>
     <div class="module video">
       <h4 class="title">{{video.title}}</h4>
     </div>

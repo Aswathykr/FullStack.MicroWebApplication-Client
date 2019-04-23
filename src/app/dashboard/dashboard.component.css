@@ -47,14 +47,15 @@
     margin-top: 100px;
     margin-left: 30px;
     display: grid;
-    grid-gap: 100px;
+    grid-gap: -px;
     border: 2px solid slategray;
     border-radius: 10px;
-    background-image:url("../../assets/27.jpeg") ;
+    background-color: black;
+    /* background-image:url("../../assets/27.jpeg") ; */
     background-size: cover;
     background-position: center;
-    color: #607D8B;
-    animation:  moveLeftToRight 15s linear;
+    color:darkgrey;
+    animation:  moveLeftToRight 10s linear;
     position: relative;
 
    }
@@ -65,12 +66,12 @@
     /*animation-fill-mode: forwards;*/
   }
   .module {
-    margin-top: 54px;
+    margin-top: 0px;
     text-align: center;
     color: #eee;
     height: 40px;
     width: 225px;
-    background-color: #607d8b;
+    background-color: darkgray;
     border-radius: 2px;
     font-family: "American Typewriter";
   }

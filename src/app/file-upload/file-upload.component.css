@@ -14,7 +14,7 @@
     border:2px solid rgba(235, 240, 243, 0.836);
     text-align: center;
     border-radius: 25px;
-    background-color: #607D8B;
+    background-color: transparent;
 }
 
 .grid{
@@ -46,7 +46,9 @@ label {
     color: white;
     padding-top: 1px;
     text-align: left;
-   font-family: sans-serif;
+
+   font-family: "American Typewriter"
+
 }
 input {
     color:black;
@@ -60,16 +62,18 @@ input {
     border: #039be5;
     color: #EEEEEE;
 
+
 }
 .submit{
   border: 2px solid #ccc;
-  background-color: #607D8B;
+  background-color: transparent;
   size: 30px;
   height: 40px;
   width: 130px;
   margin-left: 90px;
   border-radius: 25px;
     color: #EEEEEE;
+    font-family: "American Typewriter";
 
 }
 .custom{

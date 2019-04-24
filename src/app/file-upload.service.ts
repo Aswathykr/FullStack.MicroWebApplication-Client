@@ -11,7 +11,7 @@ export class FileUploadService {
   constructor(private httpClient: HttpClient) { }
 
   uploadOld(file) {
-    const url = `http://localhost:8080//videos/1`;
+    const url = `http://phoenixvideos-env.qrsnwtvitv.us-east-2.elasticbeanstalk.com//videos/1`;
     var fd = new FormData();
     fd.append('file', file);
     fd.append('title', "title");
@@ -36,7 +36,7 @@ export class FileUploadService {
     fd.append('format', "mp4");
   
     // Send it.
-    return this.httpClient.post('http://localhost:8080//videos/1',
+    return this.httpClient.post('http://phoenixvideos-env.qrsnwtvitv.us-east-2.elasticbeanstalk.com/videos/1',
      fd, options);
       // .toPromise()
       // .catch((e) => {

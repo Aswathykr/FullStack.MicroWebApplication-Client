@@ -15,6 +15,7 @@
   word-wrap: break-word;
   padding-top: 10px;
   padding-right: 20px;
+  margin-bottom: 20px;
   /*padding-top: 30px;*/
 
 }
@@ -45,17 +46,27 @@ li{
   width: 400px;
   height: 100px;
   border: 3px outset lightcyan;
+  /*text-align: right;*/
 
   /*padding-right: 100px;*/
   /*padding-left: 100px;*/
-  margin: auto;
-  text-align: justify-all;
-  padding-top: 10px;
+  /*margin: auto;*/
+  /*text-align: justify-all;*/
+  padding-top: 30px;
   margin-bottom: 10px;
   box-shadow: #888888;
+  text-align: center;
 
   /*padding-top: 120px;*/
   /*float: right;*/
+}
+.listView{
+
+  /*position: center;*/
+  margin-top: 20px;
+  float: right;
+  padding-right: 760px;
+  position: center;
 }
   body {
     margin: 2em;
@@ -75,10 +86,10 @@ li{
     width: 100vm;
     height: 70vm;
     font-family: "American Typewriter";
-    margin-top: 0px;
-    margin-left: 750px;
-    margin-bottom: 120px;
-
+    margin-top: 70px;
+    margin-left: -495px;
+    margin-bottom: 0px;
+    position: absolute;
   }
    
   button.clear {

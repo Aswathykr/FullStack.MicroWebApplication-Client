@@ -7,11 +7,13 @@
 <div>
 <textarea class ="inputComment" type="text" [(ngModel)]= "newComment" placeholder="comments">
 </textarea>
-</div>
+
 <button class="addButton" (click)="onClick()">
 <!--<button (click)="addComment({{id}},newComment.value); newComment.value=''">-->
   Add Comment
 </button>
-
-  <li *ngFor='let comment of comments'> {{comment.comment}} </li>
+</div>
+<div class="listView">
+  <li  *ngFor='let comment of comments' item-end > {{comment.comment}} </li>
+</div>
 <!--</div>-->

@@ -13,26 +13,27 @@
   .videos li {
     cursor: pointer;
     position: relative;
-    left: 0;
-    /*background-color: #EEE;*/
-    margin: .5em;
-    padding: .3em 0;
-    height: 1.6em;
-    border-radius: 4px;
+   margin-left: 20px;
+
+    border: 1px solid lightcyan;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    alignment: center;
     background-image:url("../../assets/video-play-icon-7.png")  ;
     background-position-y: center;
     background-size: 25px;
     background-repeat:no-repeat;
   }
   .videos li.selected:hover {
-    background-color: #BBD8DC !important;
-    color: white;
+    /*background-color: #BBD8DC !important;*/
+    /*color: white;*/
     transform: scale(1.2);
   }
   .videos li:hover {
-    color: #607D8B;
-    background-color: #DDD;
-    left: .1em;
+    /*color: #607D8B;*/
+    /*background-color: #DDD;*/
+    /*left: .1em;*/
+    transform: scale(1.2);
   }
   .videos .text {
  
@@ -40,21 +41,24 @@
     top: -3px;
   }
   .videos .badge {
-    margin-left: 30px;
+    margin-left: 70px;
     display:flex;
     font-size: small;
     color: white;
-    padding: 0.8em 0.7em 0 0.7em;
-    background-color: #607D8B;
-    line-height: 1em;
+    /*padding: 0.8em 0.7em 0 0.7em;*/
+    background-color: transparent;
+    /*line-height: 1em;*/
     position: relative;
+
     left: -1px;
     top: 4px;
-    height: 2em;
-    border-radius: 4px;
+    height: 40px;
+    /*border: 3px solid lightcyan;*/
+    /*border-radius: 2px;*/
     font-family: "American Typewriter";
     font-weight: normal;
-    margin-bottom: 10px;
+    padding-bottom: auto;
+
 
 
 

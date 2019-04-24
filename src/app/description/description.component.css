@@ -1,0 +1,16 @@
+.descriptionTitle{
+    font-family: "American Typewriter";
+    font-size: xx-large;
+    color: #DDDDDD;
+}
+.description{
+    font-family: "Apple Color Emoji";
+    color: cadetblue;
+    padding-left: 50px;
+    font-size: xx-large;
+    text-transform: capitalize;
+    display: block;
+    margin-top: 20px;
+
+
+}

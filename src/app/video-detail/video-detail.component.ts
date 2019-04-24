@@ -1,9 +1,9 @@
 
 import { Component, OnInit , Input} from '@angular/core';
 import { Video } from '../video';
-import { VideoService } from '../video.service'
+import { VideoService } from '../video.service';
 import { Location } from '@angular/common';
-import {ActivatedRoute} from '@angular/router'
+import {ActivatedRoute} from '@angular/router';
 import {Comment} from "../comment";
 
 @Component({

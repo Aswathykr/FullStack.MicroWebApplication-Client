@@ -11,6 +11,7 @@
 
 [class*='col-'] {
     float: left;
+    position: center;
     /*padding-right: 10px;*/
     /*padding-bottom: 20px;*/
   }
@@ -21,11 +22,7 @@
   a {
     text-decoration: none;
   }
-  *, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+
 
 @keyframes moveLeftToRight1 {
   0%   { left: -100px; }
@@ -34,29 +31,33 @@
 
   h3 {
     text-align: center;
-    font-size: x-large;
+    font-size: 40px;
     color: #EEEEEE;
     font-family: "American Typewriter";
-    animation: moveLeftToRight 10s linear infinite;
+    margin-top: 70px;
+    /*animation: moveLeftToRight 10s linear infinite;*/
   }
 
 
   .col-1-4 {
-    width: 230px;
-    height: 180px;
-    margin-top: 100px;
-    margin-left: 30px;
+    width: 300px;
+    height: 250px;
+    margin-top: 170px;
+    margin-left: 50px;
     display: grid;
-    grid-gap: -px;
+    grid-gap: -1px;
     border: 2px solid slategray;
     border-radius: 10px;
     background-color: black;
     /* background-image:url("../../assets/27.jpeg") ; */
-    background-size: cover;
-    background-position: center;
+    /*background-size: cover;*/
+    /*background-position: center;*/
     color:darkgrey;
-    animation:  moveLeftToRight 10s linear;
-    position: relative;
+    animation: 0.7s curtain cubic-bezier(.86,0,.07,1) 0.4s both;
+
+    /*position: relative;*/
+    /*animation: moveLeftToRight 1s forwards;*/
+    /*animation-delay: 2s;*/
 
    }
 
@@ -67,13 +68,16 @@
   }
   .module {
     margin-top: 0px;
-    text-align: center;
+    /*text-align: center;*/
+    text-align-all: center;
     color: #eee;
-    height: 40px;
-    width: 225px;
-    background-color: darkgray;
-    border-radius: 2px;
+    height: 60px;
+    width: 300px;
+    background-color: #888888;
+    border-radius: 4px;
     font-family: "American Typewriter";
+   padding-top: 10px;
+
   }
 .title {
 
@@ -91,8 +95,23 @@
 
 
   @keyframes moveLeftToRight {
-  0%   { left: -100px; }
-  100% { left: 100%; }
+
+    100% {
+      left: 0;
+    }
+  }
+  /*width: 100%;*/
+
+@keyframes curtain {
+  0% {
+    grid-gap: 100vw;
   }
 
+  100% {
+    grid-gap: 0;
+  }
 
+}
+video{
+  padding-top: 0;
+}

@@ -1,8 +1,8 @@
 import {Component, Input, OnInit, Output, ViewChild} from '@angular/core';
 
-import {Comment} from "../comment";
-import {VideoService} from "../video.service";
-import {ActivatedRoute} from "@angular/router";
+import {Comment} from '../comment';
+import {VideoService} from '../video.service';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-comments',
@@ -15,11 +15,11 @@ export class CommentsComponent implements OnInit {
   @Input()
   comments: Comment[];
   // comments = Comment[4];
-  id : number;
-  newComment:string;
+  id: number;
+  newComment: string;
 
-  constructor(private videoService: VideoService, private route : ActivatedRoute) {
-    this.id = this.route.snapshot.params['id'];
+  constructor(private videoService: VideoService, private route: ActivatedRoute) {
+    this.id = this.route.snapshot.params.id;
     this.getComments(this.id);
   }
 
@@ -30,22 +30,23 @@ export class CommentsComponent implements OnInit {
   getComments(id): void {
     this.videoService.getComments(id)
       .subscribe(comments => {
-        this.comments = comments});
+        this.comments = comments; });
   }
 
-  addComment(id,text: string): void{
+  addComment(id, text: string): void {
     this.entry = undefined;
     const newComment: Comment  = {comment : text}  as Comment;
 
     // newComment.comment= text;
-    console.log("this id thw id" +id+newComment)
+    console.log('this id thw id' + id + newComment);
     this.videoService.addComment(id, newComment)
       .subscribe(comment => this.comments.push(comment));
 
   }
 
-  onClick(){
-    this.addComment(this.id,this.newComment);
-    this.newComment = "";
+  onClick() {
+    console.log(this.newComment);
+    this.addComment(this.id, this.newComment);
+    this.newComment = '';
   }
 }

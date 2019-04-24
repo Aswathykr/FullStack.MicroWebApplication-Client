@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { FileUploadComponent } from './file-upload/file-upload.component';
+import { DescriptionComponent } from './description/description.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { FileUploadComponent } from './file-upload/file-upload.component';
     VideosComponent,
     FileSelectDirective,
     FileUploadComponent,
-    CommentsComponent
+    CommentsComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,

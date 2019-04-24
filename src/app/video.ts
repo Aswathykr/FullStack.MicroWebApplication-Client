@@ -3,5 +3,6 @@ export class Video {
   title: string;
   format: string;
   description: string;
+  path: string;
   thumbnail: string;
 }

@@ -10,13 +10,10 @@ import { Video } from '../video';
 export class DashboardComponent implements OnInit {
 
   videos: Video[] = [];
- 
   constructor(private videoService: VideoService) { }
- 
   ngOnInit() {
     this.getVideos();
   }
- 
   getVideos(): void {
     this.videoService.getVideos()
       .subscribe(videos => this.videos = videos.slice(0, 5));

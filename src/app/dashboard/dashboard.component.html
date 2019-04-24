@@ -7,11 +7,13 @@
 
 
   routerLink="/detail/{{video.id}}">
-  <div>
-  <video width="225" height="175">
-    <source src={{video.path}}  type='video/{{video.format}}'>
+
+  <video  width="295" height="250">
+    <source src="{{video.path}}#t=7,10" type='video/{{video.format}}'>
   </video>
-</div>
+
+
+
     <div class="module video">
       <h4 class="title">{{video.title}}</h4>
     </div>
